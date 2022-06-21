@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Ro'yxatdan o'tish</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+<form class="box" action="index.html" method="POST" data-netlify="true">
+	<a href="file:///C:/Users/User/Desktop/new/index.html">Bosh sahifa</a>
+	<h1>Ro'yhatdan o'tish</h1>
+    <label for="email">Email manzilingiz</label><input id="email" type="email" placeholder="Pochta  manzili" required>
+	<label for="username">foydalanuvchi nomingiz</label><input id="username" type="text" name="" placeholder="Foydalanuvchi nomi" required>
+	<label for="password">parol yarating</label><input id="password" type="password" name="" placeholder="Parol" required="8">
+    <label for="age">yoshingizni kiriting</label><input id="age" type="number" placeholder="Yoshingiz" required>
+	<div data-netlife-recaptcha="true"></div>
+	<input id="btn" type="submit" name="" value="Register">
+	<p>Siz yangi bo'lsangiz : <a href="kirish.html">Kirish</a></p>
+	<p>or <a href="kirishniTikla.html">Kirishni tiklash</a></p>
+	<footer>
+		<p><a href="admin.html">Admin Login</a></p>
+	</footer>
+</form>
+<script src="register.js"></script>
+</body>
+</html>
+<?php
+$conn = mysqli_connect("localhost", "root", "");
+>

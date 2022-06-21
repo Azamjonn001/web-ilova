@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*::selection{
+    background: red;
+    color: rgb(66, 54, 230);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+    width: 16rem;
+}
+html::-webkit-scrollbar-track{
+   background: #333;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: green;
+}
+
+body{
+    background-color: rgb(0, 255, 42);
+    display: inline;
+}
+header{
+    float: right;
+    position: fixed;
+    display: inline;
+    margin-left: 550px;
+}
+header ul{
+    font-size: 20px;
+    float: right;
+}
+header ul li{
+    display: inline;
+    margin: 10px;
+}
+header ul li a{
+    color: #fff;
+    font-size: 15px;
+}
+header ul li a:hover{
+    transition: .7s;
+    color: #f0a6a6ee;
+    font-size: 19px;
+}
+.posts{
+    padding: 10px;
+    margin: 40px 150px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(60, 187, 71);
+    width: 70%;
+    height: 100%;
+}

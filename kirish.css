@@ -1,0 +1,98 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #fa4659;
+}
+.box
+{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+
+}
+.box h1
+{
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"], input[type = 'email']
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: whitesmoke;
+	border-radius: 24px;
+	transition: 0.25s;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus, .box input[type = "email"]:focus
+{
+	width: 280px;
+	border-color: #2ecc71;
+}
+.box button
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: whitesmoke;
+	border-radius: 24px;
+	transition: 0.25s;	
+	cursor: pointer;
+}
+.box button a{
+	text-decoration: none;
+	list-style: none;
+	color: blue;
+}
+.box button:hover
+{
+	background: #2ecc71;
+}
+
+p{
+	font-size: 13px;
+	color: aliceblue;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p a{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	color: rgb(6, 220, 24);
+	font-style: inherit;
+	transition: 0.2s;
+}
+p a:hover{
+	margin: 0;
+	padding: 0;
+	color: rgb(9, 127, 23);
+	font-size: 17px;
+}
+.box a{
+	text-decoration: none;
+	color: #3498db;
+}
